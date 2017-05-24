@@ -1,0 +1,37 @@
+/*-----------------------------------------*/
+/*				  DOCU V1.0			       */
+/*-----------------------------------------*/
+
+Creado por Damian Cipolat (www.damiancipolat.com.ar)
+Argentina 10/02/2014
+
+Guia de instalación:
+--------------------
+Para instalar Docu, se deben seguir los siguientes pasos.
+
+1) Copiar todo el contenido de la carpeta al servidor en donde se lo ejecutara.
+2) El archivo DB.sql contiene los codigos sql para crear la base de datos que necesita el software.
+   Dentro de dicho archivo se encuentran el codigo sql para crear la db tanto en postgresql como en mysql, el script
+   funciona por igual para ambas bases de datos.
+3) Ejecutar todos los querys contenidos en el script en la base de datos a usar.
+4) En la carpeta "/libs"  cambiar en el archivo Config.php los datos
+   - host
+   - usuario
+   - password
+   - nombre de la base de datos
+   - tipo de motor de bd
+   - puerto (No se lo usa si es mysql).
+   
+   Se debe cambiar el contenido de las variables por los datos que usaremos en nuestro servidor.
+
+5) Dar permisos de escritura y lectura a la carpeta "adjuntos".
+6) Una vez cumplidos todos los pasos anteriores, "Docu" deberia funcionar correctamente.
+
+En caso de errores o consultas escribir a:
+damian.cipolat@gmail.com, asunto: DOCU 1.0
+
+
+Espero que les sea de utilidad este programa, mucha suerte!
+
+Damián
+www.damiancipolat.com.ar
